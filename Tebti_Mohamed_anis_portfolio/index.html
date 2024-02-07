@@ -1,0 +1,289 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebti Anis portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<!--data-bs-spy="scroll" active le spy scroll, mettant en surbrillance les éléments de la barre de navigation lorsqu'ils sont défilés.
+data-bs-target=".navbar" spécifie les éléments à surveiller pour le spy scroll, en mettant en surbrillance ceux avec la classe "navbar".-->
+<body data-bs-spy="scroll" data-bs-target=".navbar" >
+    <!-- Section de la barre de navigation -->
+<header class="header_wrapper">
+  <!-- Barre de navigation Bootstrap -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+      <!-- Conteneur pour le contenu de la barre de navigation -->
+      <div class="container">
+          <!-- Marque/Logo à gauche de la barre de navigation -->
+          <a class="navbar-brand" href="#">
+              <!-- Logo avec design responsive -->
+              <img src="images/logo.png" class="img-fluid" alt="logo">
+          </a>
+
+          <!--data-bs-toggle="collapse" active le basculement des éléments, souvent utilisé avec data-bs-target pour réduire ou étendre des éléments spécifiques.
+            data-bs-target="#navbarNav" indique l'élément cible du basculement, réduisant ou étendant l'élément avec l'ID "navbarNav". -->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <!-- Icône pour le bouton de bascule (hamburger) -->
+              <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+
+          <!-- Liens de navigation -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <!-- Liste des liens de navigation -->
+              <ul class="navbar-nav menu-navbar-nav">
+                  <!-- Liens vers différentes sections -->
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hell0</h2>
+                    <h1 class="text-uppercase">I am Tebti Anis</h1>
+                    <h5 class="text-uppercase">Junior Frontend Designer</h5>
+                    <div class="mt-5">
+                      <a class="main-btn primary-btn" href="mailto:anistebti10@gmail.com?subject=Expression%20d'intérêt%20pour%20votre %20profil&body=Bonjour%20,%0A%0AJ'ai%20vu%20votre%20CV%20et%20suis%20intéressé%20par%20une%20collaboration.%20Pouvons-nous%20discuter%20plus%20en%20détail%20lors%20d'un%20entretien%20?">Hire Me</a>
+                      <a class="main-btn secondary-btn ms-4" href="https://drive.google.com/file/d/1knfKUvAvBZJFeRrLlvkMhnSY0iFxSwtU/view?usp=drive_link" target="_blank">check CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="images/home-right.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="images/about-us.webp" class="img-fluid" alt="About Us">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                  <h3>Let's Introduce Myself</h3>
+                  <p>Hi, I'm a 19 years old front-end developer, second year computer science student at Sorbonne University.</p>
+                  <p>Passionate about the world of technology and entrepreneurship, constantly exploring new opportunities and challenges in the ever-evolving field of information technology.</p>
+                  
+                  <button id="downloadBtn" class="main-btn primary-btn mt-4">Download CV</button>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>SERVICE OFFERS</h2>
+                    <p>Explore the range of services I provide to meet your digital needs. </p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="./images/services-img/mouse.webp">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Web DEV</h5>
+                        <p>Transform your ideas into functional and interactive websites.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3 ">
+                        <div>
+                            <img  src="./images/services-img/ui-ux.webp">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">UI/UX DESIGN</h5>
+                        <p>Enhance user experience with visually appealing and intuitive designs. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img  src="./images/services-img/website.webp">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">WEB DESIGN</h5>
+                        <p>Create a stunning online presence with custom web designs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img  src="./images/services-img/seo.webp">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">SEO OPTIMIZE</h5>
+                        <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services section exit -->
+
+    <!-- portfolio Section -->
+    <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 text-left mb-md-5 mb-2">
+                  <h2>QUALITY WORK <br>RECENTLY DONE PROJECT</h2>
+              </div>
+          </div>
+  
+          <!-- Grille de 3 colonnes sur écran large, une colonne sur écran plus petit -->
+          <div class="row">
+            <div class="col-md-4 col-sm-12 mb-4">
+                <a href="https://drive.google.com/drive/u/0/folders/1-BJiHX-HVwhGVB6V89ml4LfHfbZDm34f">
+                    <div class="portfolio-img">
+                        <!-- La classe w-100 est également une classe Bootstrap qui signifie "width: 100%" -->
+                        <img src="./images/portfolio/Food_delivery_cover_1.png" class="img-fluid w-100">
+                        <div class="overlay"> <i class="fas fa-plus"></i></div>
+                    </div>
+                     <!--margin bottom , margin top-->
+                    <h5 class="mb-0 mt-4">FOOD ME</h5>
+                    <p>mobile app for food delivery, with enhanced user experience</p>
+                </a>
+            </div>
+        
+            <div class="col-md-4 col-sm-12 mb-4">
+                <a href="https://drive.google.com/drive/u/0/folders/17ccWuPuV0txO1Jtt6rGhYY5nuMvN0vgB">
+                    <div class="portfolio-img">
+                        <img src="./images/portfolio/Wadjba_acceuil_1.png" class="img-fluid w-100">
+                        <div class="overlay"> <i class="fas fa-plus"></i></div>
+                    </div>
+                    <h5 class="mb-0 mt-4">WADJBA</h5>
+                    <p>Catering service providing an exceptional culinary experience with traditional Algerian dishes.</p>
+                </a>
+            </div>
+        
+            <div class="col-md-4 col-sm-12 mb-4">
+                <a href="https://drive.google.com/drive/u/0/folders/1-BJiHX-HVwhGVB6V89ml4LfHfbZDm34f">
+                    <div class="portfolio-img">
+                        <img src="./images/portfolio/Rentit_1.png" class="img-fluid w-100">
+                        <div class="overlay"> <i class="fas fa-plus"></i></div>
+                    </div>
+                    <h5 class="mb-0 mt-4">RENTIT</h5>
+                    <p>Online car rental platform, simplifying the rental process for a hassle-free adventure.</p>
+                </a>
+            </div>
+        </div>
+        
+  </section>
+  
+    <!-- portfolio Section exit -->
+
+   
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 newsletter text-center px-4">
+                    <div>
+                        <h3 class="text-white">Get updates from anywhere</h3>
+                        <p class="text-white">Don't be afraid to put your email. I also hate being spammed.</p>
+    
+                        <form class="row g-3 justify-content-center mt-4">
+                            <div class="col-12">
+                                <input type="nom" id="nom" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-12 ">
+                                <input type="prenom" id="prenom" class="form-control" placeholder="First name">
+                            </div>
+    
+                            <div class="col-12">
+                                <input type="email" id="email" class="form-control" placeholder="Email address">
+                            </div>
+                            
+                            <!-- Added Message input field -->
+                            <div class="col-12">
+                                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                            </div>
+    
+                            <div class="col-12">
+                                <button type="submit"  class="main-btn secondary-btn border-white mb-3 mt-3">Get Started</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container mt-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="my- social-icons">
+                        <h5>Follow Me</h5>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li><a href="https://www.instagram.com/anis_marburg_v/" id="insta" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/anis-tebti/" id="link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="footer-text text-center my-2">Copyright © 2023 All rights reserved
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
